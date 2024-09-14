@@ -61,5 +61,14 @@ f) 2,10, 12, 16, 17, 18, 19, **200**
 
 5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?  
 
-
-NÃO SE ESQUEÇA DE INSERIR O LINK DO SEU REPOSITÓRIO NO GITHUB COM O CÓDIGO FONTE QUE VOCÊ DESENVOLVEU.
+>Resposta:
+>
+>Primeiramente eu ligo o primeiro interruptor e deixo ele ligado por 15 minutos pelo menos, fazendo com que a lâmpada ligada a esse interruptor esquente.
+>
+>Em seguida desligo esse interruptor e ligo o segundo.
+>
+>Agora vou até a primeira sala e verifco se a lâmpada está acessa, se sim essa é correspondente ao segundo interruptor que liguei, se estiver apagada verifico se ela está quente, se sim ela correspondente ao primeiro interruptor, se estiver fria ela corresponde ao terceiro interruptor ao qual eu não liguei. Dessa forma terei uma das lâmpadas mapeadas.
+>
+>Em seguida vou para outra sala e uso a mesma lógica levando em consideração que restaram duas lâmpadas para verificar já que uma já foi mapeada. Tendo verificada qual lâmpada está presente nessa sala por lógica a lâmpada que ficou na terceira sala é a correspondente ao interruptor que sobrou, não sendo necessário ir até a sala para verificar.
+>
+>Sendo assim consegui mapear qual interruptor corresponde a qual lâmpada usando apenas duas idas nas sala.
